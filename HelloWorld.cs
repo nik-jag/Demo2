@@ -1,7 +1,12 @@
 public class HelloWorld
 {
-	void Main()
+	static void Main()
 	{
-		System.Console.WriteLine("Hello World (version 2)");
+		DisplayMessage_MasterBranch();
+	}
+	
+	private static void DisplayMessage_MasterBranch()
+	{
+		System.Console.WriteLine("Hello World (version 3)");
 	}
 }

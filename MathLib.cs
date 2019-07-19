@@ -1,7 +1,12 @@
 public class MathLib
 {
-	public int Add(int a, int b)
+	public int Addition(int a, int b)
 	{
 		return a + b;
+	}
+	
+	public int Subtraction(int a, int b)
+	{
+		return a - b;
 	}
 }

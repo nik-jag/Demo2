@@ -1,17 +1,17 @@
 public class MathLib
 {
-	public int Addition(int a, int b)
+	public int Addition(int num1, int num2)
 	{
-		return a + b;
+		return num1 + num2;
 	}
 	
-	public int Subtraction(int a, int b)
+	public int Subtraction(int num1, int num2)
 	{
-		return a - b;
+		return num1 - num2;
 	}
 	
-	public int Multiplication(int a, int b)
+	public int Multiplication(int num1, int num2)
 	{
-		return a * b;
+		return num1 * num2;
 	}
 }
